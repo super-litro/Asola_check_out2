@@ -1,0 +1,206 @@
+*{
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body{
+ background-color: pink;
+ height: 100vh;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.wrapper{
+    z-index: 999;
+    width: 420px;
+    background: #ffffff;
+    backdrop-filter: blur(3px);
+    box-shadow: 1px 1px 5px black;
+    color: black;
+    border: none;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 40px;
+    align-items: center;
+    justify-content: center;
+}
+.wrapper h1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.wrapper .label{
+    display: flex;
+    flex-direction: row-reverse;
+    color: black;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+.wrapper .user-name{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    width: 100%;
+    box-shadow: 1px 1px 5px black;
+    border-radius: 40px;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+.wrapper .user-name input {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-end;
+    color: black;
+    font-size: 20px;
+    border-width: 0;
+    width: 80%;
+    border: none;
+    outline: none;
+    margin-right: 10px;
+    background-color: transparent;
+    padding: 0;
+} 
+.wrapper .user-name i{
+    padding: 5px;
+    margin-left: 5px;
+}
+.wrapper .adress{
+    width: 100%;
+    box-shadow: 1px 1px 5px black;
+    border-radius: 40px;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+.wrapper .adress-2{
+    width: 100%;
+    box-shadow: 1px 1px 5px black;
+    border-radius: 40px;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+.wrapper .Adress input {
+    color: black;
+    font-size: 20px;
+    border-width: 0;
+    padding: 5px;
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    margin-right: 10px;
+}
+.wrapper .Email{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    width: 100%;
+    box-shadow: 1px 1px 5px black;
+    border-radius: 40px;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+.wrapper .Email input{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-end;
+    color: black;
+    font-size: 20px;
+    border-width: 0;
+    width: 80%;
+    border: none;
+    outline: none;
+    margin-right: 10px;
+    background-color: transparent;
+    padding: 0;
+} 
+.wrapper .Email i{
+    padding: 5px;
+    margin-left: 5px;
+}
+.wrapper .telephone-number{
+    display: flex;
+    color: black;
+    justify-content: center;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    width: 100%;
+    box-shadow: 1px 1px 5px black;
+    border-radius: 40px;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+.wrapper .telephone-number input {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-end;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    width: 80%;
+    margin-right: 10px;
+    background-color: transparent;
+    padding: 0;
+} 
+.wrapper .telephone-number i{
+    padding: 5px;
+    margin-left: 5px;
+}
+.wrapper p{
+    width: 100%;
+    font-size: 18px;
+    font-weight: 700;
+}
+.wrapper span{
+    color: red;
+}
+.wrapper .confirm{
+    background: transparent;
+    color: black;
+    border: none;
+    font-size: 26px;
+    font-weight: 700;
+    border-radius: 30px;
+    border: 2px solid #ffeded;
+    box-shadow: 1px 1px 5px black;
+    width: 50%;
+    margin-left: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.wrapper .confirm:hover{
+    border-color: black;
+    cursor: pointer;
+}
+
+.wrapper .skip{
+    width: 40px;
+    display: flex;
+    font-size: 18px;
+    font-weight: 800;
+    color: #424242b4;
+}
+.wrapper .skip i{
+    margin: 3px;
+}
+.wrapper .skip:hover{
+    text-decoration: underline;
+    color: blue;
+}
+@media (max-width: 420px){
+    .wrapper .log-in{
+        width: 70%;
+        margin-left: 15%;
+        font-size: 24px;
+        font-weight: 700;
+    }
+    .wrapper .register{
+        font-size: 18px;
+    }
+    .wrapper .skip{
+        font-size: 16px;
+    }
+}

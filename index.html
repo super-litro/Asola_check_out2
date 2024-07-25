@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ar">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="checkout-page.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <title>ASOLA_Makret</title>
+</head>
+
+<body>
+    <form action="" method="post">
+        <div class="wrapper">
+            <h1>بوابة الدفع</h1>
+            <label for="full-name" class="label">: الاسم بالكامل (الأول و الأخير)</label>
+            <div class="user-name">
+                <input type="text" name="full-name" dir="rtl" class="full-name" required>
+                <i class="fa-solid fa-user"></i>
+            </div>
+            <label for="adress" class="label">: العنوان</label>
+            <div class="Adress">
+                <input type="text" placeholder="عنوان الشارع" name="adress" dir="rtl" class="adress" required>
+                <input type="text" placeholder="الوحدة السكنية, الطابق, الشقه" name="adress-2" dir="rtl"
+                    class="adress-2">
+            </div>
+            <label for="user-email" class="label">: البريد الالكتروني</label>
+            <div class="Email">
+                <input type="email" placeholder="example@gmail.com" name="user-email" dir="rtl" class="user-email" required>
+                <i class="fa-sharp fa-solid fa-envelope"></i>
+            </div>
+            <label for="telephone" class="label">: رقم الهاتف</label>
+            <div class="telephone-number">
+                <input type="tel" id="telephone" name="telephone" dir="rtl" placeholder="" required />
+                <i class="fa-solid fa-phone"></i>
+            </div>
+            <p dir="rtl">الدفع <span>عند استلام الطلب</span></p>
+            <input type="submit" class="confirm" value="تأكيد">
+            <a href="index.html" class="skip"><i class="fa fa-arrow-left"></i> العودة</a>
+        </div>
+    </form>
+
+</body>
+
+</html>
